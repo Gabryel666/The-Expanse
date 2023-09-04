@@ -1,0 +1,44 @@
+name: Discord Webhook
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  send_discord_notification:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Get last commit message
+      id: get_last_commit_message
+      run: |
+        cd ${{ github.workspace }}  # Se déplacer dans le répertoire du référentiel
+        LAST_COMMIT_MESSAGE=$(git log -1 --pretty=format:%s)
+        echo "::set-output name=last_commit_message::$LAST_COMMIT_MESSAGE"
+
+    - name: Send Discord Notification
+      run: |
+        COMMIT_MESSAGE="${{ steps.get_last_commit_message.outputs.last_commit_message }}"
+        curl -X POST -H "Content-Type: application/json" -d '{
+          "content": "",
+          "embeds": [
+            {
+              "title": "The Expanse",
+              "description": "[Documents](https://gabryel666.github.io/The-Expanse/book/index.html)",
+              "color": 4278383,
+              "thumbnail": {
+                "url": "https://i.imgur.com/Y3Gk5mm.png"
+              },
+              "fields": [
+                {
+                  "name": "Mise à jour :",
+                  "value": "'"$COMMIT_MESSAGE"'"
+                }
+              ]
+            }
+          ]
+        }' ${{ secrets.DISCORD_WEBHOOK_URL }}
