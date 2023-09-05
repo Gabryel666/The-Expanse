@@ -10,11 +10,17 @@ Le procès de Declan dans la communauté fit grand bruit. Après tout, disait-on
 
 Son salut arriva à quelques semaines de son procès. Le gouvernement mettait en place depuis plusieurs mois un dispositif de reclassement dans des centres militaires un peu partout sur le territoire. Plutôt que de risquer une année de prison, on proposait à Declan de s'engager dans un de ces centres militaires pour une durée de deux ans. Des corvées et des tests seraient au rendez-vous, mais il ne croupirait pas en prison et la maigre solde qu'il percevrait pourrait aider la pêcherie à passer les mois difficiles. Il accepta l'accord, loin de se douter que ce marché passé à contrecœur allait lui permettre d'atteindre un rêve empli d'étoiles.
 
-<img src="C:\Sites\The-Expanse\src\images\00142-1075154842.png" alt="00142-1075154842" style="zoom:70%;" />
+<figure>
+  <img style=display:block;width:60%;margin:auto;" src="https://gabryel666.github.io/The-Expanse/book/images/declan_jeune.png" alt="Declan Jeune" style="zoom:70%;" />
+</figure>
 
-<img src="C:\Sites\The-Expanse\src\images\00165-3976020258.png" alt="00165-3976020258" style="zoom: 60%;" />
+<figure>
+  <img style=display:block;width:60%;margin:auto;" src="https://gabryel666.github.io/The-Expanse/book/images/pecherie.png" alt="Pêcherie" style="zoom:70%;" />
+</figure>
 
-<img src="C:\Users\st_ga\Downloads\00169-1266225499.png" alt="00169-1266225499" style="zoom:60%;" />
+<figure>
+  <img style=display:block;width:60%;margin:auto;" src="https://gabryel666.github.io/The-Expanse/book/images/taney.png" alt="Comté de Taney" style="zoom:70%;" />
+</figure>
 
 
 
